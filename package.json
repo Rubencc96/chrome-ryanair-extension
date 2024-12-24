@@ -1,0 +1,17 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "Simply a silly test for developing chrome extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rmdir /S/Q dist && npx tsc && xcopy public\\* dist\\ /E"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "typescript": "^5.7.2"
+  }
+}

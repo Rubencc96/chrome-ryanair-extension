@@ -1,0 +1,14 @@
+{
+    "name": "Ryanair - Fill the names",
+    "description": "",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "images/ext-icon.png"
+    },
+    "background": {
+      "service_worker" : "background.js"
+    },
+    "permissions" : ["scripting", "activeTab"]
+  }
